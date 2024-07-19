@@ -1,1 +1,28 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quiz App</h1>
+      <div class="wrapper">
+        <div id="quiz" class="quiz"></div>
+        <div id="result" class="result"></div>
+        <button id="submit" class="button">Submit</button>
+        <div class="score_box">
+          <p class="correctAns">
+            Correct Answer: <span class="correct_score">0</span>
+          </p>
+          <p class="uncorrectAns">
+            Uncorrect Answer: <span class="uncorrect_score">0</span>
+          </p>
+        </div>
+      </div>
+      <button class="restart_game">Restart Game</button>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>
